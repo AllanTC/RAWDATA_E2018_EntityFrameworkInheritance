@@ -1,9 +1,9 @@
 ## Entity Framework Inheritance
 There are three different ways to handle inheritance in the relational model, Table Per Hierarchy (TPH), Table Per Type (TPT), 
-and Table Per Concrete Class (TPC). Entity framework only supports the two first TPH and TPT. The last one TPC can easily be 
+and Table Per Concrete Class (TPC). Entity framework only supports the two first TPH and TPT. However, the last one, TPC, can easily be 
 handled in our example, since posts are static and thus the two concrete clases Question and Answer are just mapped to the tables 
 with the respective information. Getting all posts can easily be handled with a database view, but if data is dynamic and new 
-entities are inserted one need to ensure that the new postid is unique across both tables. This can be handled by triggers or rules.
+entities are inserted one need to ensure that the new postid is unique across both tables. This can be handled by triggers or rules in the database or, less efficient, in the data service layer.
 
 Here are the example database used in the examples showing how to implement the three inheritance models with EF:
 
