@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TablePerHierarch", "TablePe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TablePerType", "TablePerType\TablePerType.csproj", "{942CD903-0F72-4B94-8ACD-507B6A97D6AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TablePerConcreteType", "TablePerConcreteType\TablePerConcreteType.csproj", "{A1E0D3C0-EFE5-49D0-A468-D2DC2ECA2E64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TablePerConcreteClass", "TablePerConcreteType\TablePerConcreteClass.csproj", "{A1E0D3C0-EFE5-49D0-A468-D2DC2ECA2E64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
